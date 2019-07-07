@@ -1,0 +1,21 @@
+menu "WiFi Configuration"
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "myssid"
+        help
+            SSID (network name) for the example to connect to.
+
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default "mypassword"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+endmenu
+
+menu "LIFX Configuration"
+    config ESP_LIFX_MAC
+        string "LIFX bulb MAC address"
+        default "D0:73:D5:50:EF:20"
+        help
+            MAC address of the LIFX bulb to toggle.
+endmenu
