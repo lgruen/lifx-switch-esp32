@@ -5,10 +5,10 @@ Implements a simple light switch for an LIFX bulb.
 This is not, in any way, affiliated or related to LiFi Labs, Inc.  Use it at
 your own risk.
 
-Senses when a capacative button is pressed and then sends a UDP packet over the
+Senses when a capacitive button is pressed and then sends a UDP packet over the
 WiFi network to change the power state of a particular bulb.
 
-The capacative button can be as simple as a piece of metal connected to one of
+The capacitive button can be as simple as a piece of metal connected to one of
 the "touch" pins of the ESP32.
 
 This is structured identically to the ESP-IDF examples. Before compiling, run
